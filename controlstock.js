@@ -10,7 +10,7 @@ function menuInicio(){
         let bandera = false;
         let seguir;
 do {
-        let entrada= prompt("Ingrese el numero del articulo a consultar: 1. Remeras, 2. Buzos, 3. Camperas, 4. Camisas, 5. Pantalones,6. Zapatillas, 0. Salir");
+        let entrada= prompt("Ingrese el numero del articulo a consultar:\n 1. Remeras\n 2. Buzos\n 3. Camperas\n 4. Camisas\n 5. Pantalones\n 6. Zapatillas\n 0. Salir");
         switch(entrada){
                 case '1': alert("La cantidad de remeras son: " + remeras);
                         bandera = false;
